@@ -1,0 +1,180 @@
+:root {
+    scroll-behavior: smooth;
+    --white: #fff;
+    --btn-pink: #EC008C;
+    --blue-hover: #06377B;
+    --color-blue: #06377B;
+}
+
+body {
+
+    background: #e9f2f8;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+    line-height: 1;
+    font-weight: 400;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* start top section */
+.top-section {
+    background-color: #06377B;
+    padding: 15px;
+
+    .elementor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .leftCard {
+            .userDetails {
+                display: flex;
+                gap: 15px;
+
+                a {
+                    color: var(--white);
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: "Nunito Sans", Sans-serif;
+
+                    &:hover {
+                        color: #EC008C;
+                    }
+                }
+            }
+        }
+
+        .rightCard {
+            .socail-media {
+                display: flex;
+                gap: 10px;
+
+                a {
+                    background: transparent;
+                    text-align: center;
+                    font-family: "Nunito Sans", Sans-serif;
+                    border-radius: 2px;
+
+                    &:hover {
+                        background-color: #EC008C;
+                    }
+
+                    i {
+                        font-size: 14px;
+                        color: var(--white);
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* edn top section */
+.btnPink {
+    background-color: var(--btn-pink);
+
+    &:hover {
+        background-color: var(--blue-hover);
+    }
+}
+
+.btn {
+    font-family: "Heebo", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    background-color: #EC008C;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 30px;
+    border: none;
+}
+
+.header {
+    .nav-item {
+        a {
+            color: var(--color-blue);
+            font-family: "Nunito Sans", Sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 24px;
+            &.active{
+                color: var(--btn-pink);
+            }
+        }
+    }
+}
+.carousel-item{
+    img{
+        height: 650px;
+        max-height: 650;
+    }
+}
+.carousel-control-prev-icon{
+    color: var(--btn-pink);
+}
+.cardSection{
+    padding-top: 100px;
+    p{
+        color: #06377B;
+    font-family: "Heebo", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 53px;
+    span{
+        font-weight: 600;
+    }
+    }
+}
+.customCard{
+    img{
+        width: 100%;
+        height: 270px;
+    }
+    h2{
+        color: #06377B;
+    /* font-family: "Heebo", Sans-serif; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    }
+    p{
+        color: #486683;
+        font-family: "Nunito Sans", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+    .ReadMore{
+        color: var(--btn-pink);
+        text-decoration: none;
+    }
+}
