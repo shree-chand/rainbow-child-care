@@ -476,8 +476,8 @@ footer a:hover {
     font-weight: 400;
     padding-top: 40px;
 }
-.blueFont {
-    background-image: url('/assets/image/cardimg.jpeg');
+.aboutbg {
+    background-image: url("assets/image/about-page.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
