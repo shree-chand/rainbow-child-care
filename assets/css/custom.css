@@ -477,9 +477,12 @@ footer a:hover {
     padding-top: 40px;
 }
 .aboutbg {
-    background-image: url("assets/image/about-page.png");
+    background-image: url("../image/about-page.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.outersection.aboutSection {
+    padding: 70px 15px 0;
 }
