@@ -1,9 +1,5 @@
 :root {
     scroll-behavior: smooth;
-    --white: #fff;
-    --color-pink: #EC008C;
-    --blue-hover: #06377B;
-    --color-blue: #06377B;
 }
 
 body {
@@ -51,70 +47,66 @@ a {
     padding: 70px 0;
     margin-bottom: 50px;
     border-radius: 16px;
-    background: var(--white);
+    background: #ffffff;
 }
 
 /* start top section */
 .top-section {
     background-color: #06377B;
     padding: 15px;
+}
 
-    .elementor {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
+.top-section .elementor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
-        .leftCard {
-            .userDetails {
-                display: flex;
-                gap: 15px;
+.leftCard .userDetails {
+    display: flex;
+    gap: 15px;
+}
 
-                a {
-                    color: var(--white);
-                    font-size: 15px;
-                    font-weight: 400;
-                    font-family: "Nunito Sans", Sans-serif;
+.leftCard .userDetails a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Nunito Sans", Sans-serif;
+}
 
-                    &:hover {
-                        color: #EC008C;
-                    }
-                }
-            }
-        }
+.leftCard .userDetails a:hover {
+    color: #EC008C;
+}
 
-        .rightCard {
-            .socail-media {
-                display: flex;
-                gap: 10px;
+.rightCard .socail-media {
+    display: flex;
+    gap: 10px;
+}
 
-                a {
-                    background: transparent;
-                    text-align: center;
-                    font-family: "Nunito Sans", Sans-serif;
-                    border-radius: 2px;
+.rightCard .socail-media a {
+    background: transparent;
+    text-align: center;
+    font-family: "Nunito Sans", Sans-serif;
+    border-radius: 2px;
+}
 
-                    &:hover {
-                        background-color: #EC008C;
-                    }
+.rightCard .socail-media a:hover {
+    background-color: #EC008C;
+}
 
-                    i {
-                        font-size: 14px;
-                        color: var(--white);
-                        padding: 5px;
-                    }
-                }
-            }
-        }
-    }
+.rightCard .socail-media a i {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px;
 }
 
 /* edn top section */
 .btnPink {
-    background-color: var(--color-pink);
+    background-color: #EC008C;
 
     &:hover {
-        background-color: var(--blue-hover);
+        background-color: #06377B;
     }
 }
 
@@ -130,51 +122,48 @@ a {
     border: none;
 }
 
-.header {
-    .nav-item {
-        a {
-            color: var(--color-blue);
-            font-family: "Nunito Sans", Sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            text-transform: uppercase;
-            line-height: 24px;
+.header .nav-item a {
+    color: #06377B;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+}
 
-            &.active {
-                color: var(--color-pink);
-            }
-        }
-    }
+.header .nav-item a:active {
+    color: #EC008C;
 }
 
 .carousel-item {
     position: relative;
+}
 
-    img {
-        height: 620px;
-        max-height: 620;
-    }
+.carousel-item img {
+    height: 620px;
+    max-height: 620;
 }
 
 .carousel-control-prev-icon {
-    color: var(--color-pink);
+    color: #EC008C;
 }
 
 .cardSection {
     padding: 100px 0;
     background-color: #F7FAFB;
+}
 
-    p {
-        color: #06377B;
-        font-family: "Heebo", Sans-serif;
-        font-size: 38px;
-        font-weight: 400;
-        line-height: 53px;
+.cardSection p {
+    color: #06377B;
+    font-family: "Heebo", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 53px;
+}
 
-        span {
-            font-weight: 600;
-        }
-    }
+
+.cardSection p span {
+    font-weight: 600;
 }
 
 .customCard {
@@ -183,32 +172,32 @@ a {
     min-height: 515px;
     margin-bottom: 20px;
     border-radius: 5px;
+}
 
-    img {
-        width: 100%;
-        height: 260px;
-    }
+.customCard img {
+    width: 100%;
+    height: 260px;
+}
 
-    h2 {
-        color: #06377B;
-        /* font-family: "Heebo", Sans-serif; */
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 29px;
-    }
+.customCard h2 {
+    color: #06377B;
+    /* font-family: "Heebo", Sans-serif; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
 
-    p {
-        color: #486683;
-        font-family: "Nunito Sans", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 29px;
-    }
+.customCard p {
+    color: #486683;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+}
 
-    .ReadMore {
-        color: var(--color-pink);
-        text-decoration: none;
-    }
+.customCard .ReadMore {
+    color: #EC008C;
+    text-decoration: none;
 }
 
 .carousel-control-prev {
@@ -267,10 +256,10 @@ a {
     font-size: 38px;
     font-weight: 400;
     line-height: 53px;
+}
 
-    span {
-        font-weight: 600;
-    }
+.blueFont span {
+    font-weight: 600;
 }
 
 .bottom-text {
@@ -279,30 +268,28 @@ a {
     font-size: 25px;
     font-weight: 500;
     line-height: 53px;
-
-    a {
-        color: var(--color-pink) !important;
-    }
 }
 
-.wrapperDetails {
-    .drTitle {
-        color: var(--color-pink);
-        font-size: 38px;
-        font-weight: 600;
-        line-height: 53px;
-    }
+.bottom-textS a {
+    color: #EC008C !important;
+}
 
-    .textBlue {
-        color: #06377B;
-        font-size: 34px;
-        font-weight: 400;
-        line-height: 53px;
-    }
+.wrapperDetails.drTitle {
+    color: #EC008C;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53px;
+}
+
+.wrapperDetails.textBlue {
+    color: #06377B;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 53px;
 }
 
 .colorBlue {
-    color: var(--color-blue);
+    color: #06377B;
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
@@ -408,18 +395,18 @@ footer a:hover {
     align-items: center;
     gap: 15px;
     padding-bottom: 20px;
+}
 
-    img {
-        width: 75px;
-        height: 100%;
-    }
+.footerTopText img {
+    width: 75px;
+    height: 100%;
+}
 
-    p {
-        color: #FFFFFF;
-        font-size: 23px;
-        font-weight: 500;
-        margin-bottom: 0;
-    }
+.footerTopText p {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 .footerBottom {
@@ -427,61 +414,58 @@ footer a:hover {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
 
-    p {
-        margin-bottom: 15px;
-        line-height: 1.5;
-        padding-right: 20px;
-    }
+.footerBottom p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    padding-right: 20px;
 }
 
 .socialMediaFooter {
     display: flex;
     align-items: center;
     gap: 10px;
-
-    a {
-        background-color: white;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--color-pink) !important;
-
-        &:hover {
-            background-color: var(--color-pink);
-            color: white !important;
-
-        }
-
-        i {
-            font-size: 18px;
-        }
-    }
 }
 
-.footerLinks {
-    p {
-        margin-top: 25px;
-        color: #FFFFFF;
-        font-size: 23px;
-        font-weight: 500;
-        margin-bottom: 20px;
-    }
+.socialMediaFooter a {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EC008C !important;
+}
+
+.socialMediaFooter a:hover {
+    background-color: #EC008C;
+    color: white !important;
+}
+
+.socialMediaFooter a i {
+    font-size: 18px;
+}
+
+.footerLinks p {
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .listItem {
     list-style-type: none;
     padding-left: 0;
+}
 
-    a {
-        font-family: "Nunito Sans", Sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 2;
-    }
+.listItem a {
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
 }
 
 .copyRight {
@@ -491,4 +475,11 @@ footer a:hover {
     font-size: 17px;
     font-weight: 400;
     padding-top: 40px;
+}
+.blueFont {
+    background-image: url('/assets/image/cardimg.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
