@@ -249,7 +249,14 @@ a {
         margin-top: -10px;
     }
 }
+.cardMoveBlue{
+    transition: 0.5s;
 
+    &:hover {
+        margin-top: -10px;
+        background-color: #06377B !important;
+    }
+}
 .blueFont {
     color: #06377B;
     font-family: "Heebo", Sans-serif;
@@ -481,8 +488,90 @@ footer a:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 400px;
 }
 .outersection.aboutSection {
     padding: 70px 15px 0;
+}
+.aboutSection .aboutWrapper .blueFont{
+    color: #06377B;
+    font-family: "Heebo", Sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.rainbowPartner.aboutGrayBg{
+    background-color: #2D2D2D;
+    opacity: 0.9;
+}
+.wrapperDetails .drTitle{
+    color: #FFFFFF;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 53px;
+}
+.wrapperDetails .drTitle span{
+    color: #00ffff;
+}
+.btn-primary.btnGray{
+    background: transparent;
+    border: 1px solid white;
+}
+.btn-primary.btnGray:hover{
+    background: white;
+    color: #000;
+}
+.AppointmentBtn{
+    padding: 40px;
+}
+.contactMeta p{
+    color: #000000;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 30px 0;
+    line-height: 48px;
+}
+.card.cotactCard{
+    background-color: #EC008C;
+    text-align: center;
+    padding: 20px;
+}
+
+.card.cotactCard .card-title{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.card.cotactCard .cardIcon{
+    width: 100px;
+    height: 100px;
+    padding: .5em;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card.cotactCard i{
+    font-size: 45px;
+}
+.cardIconWrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.cotactCard p.card-text{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Nunito Sans", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
 }
