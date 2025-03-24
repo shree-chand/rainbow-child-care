@@ -677,3 +677,31 @@ a.readMore {
     color: #EC008C;
     display: block;
 }
+.blogDetail{
+    background-color: #DFEDEE;
+}
+.blogDetailsWrapper{
+    padding: 100px 50px;
+    text-align: center;
+    position: relative;
+}
+.blogDetailsWrapper .blogDetailMeta{
+    color: #06377B;
+    font-family: "Heebo", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+}
+.blogShape::before{
+    content: url('../image/shape-1.png');
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+    transform: translateY(-10%) translateX(-38%);
+}
+.blogShape::after{
+    content: url('../image/shape-2.png');
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
