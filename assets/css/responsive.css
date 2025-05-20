@@ -8,14 +8,25 @@
              font-size: 12px !important;
          }
      }
-
-     .container {
-         padding: 0;
+     nav.navbar.navbar-expand-lg{
+        padding: 0;
      }
-
      .socail-media {
          gap: 0 !important;
      }
+     .outersection{
+        padding-top: 25px;
+     }
+     .cardSection{
+        padding: 15px 0;
+     }
+     .cardSection p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+.rainbowPartner.cardSectiona.btn.btn-primary.btnPink{
+    margin-bottom: 15px;
+}
  }
 
  /* `md` applies to small devices (landscape phones, less than 768px) */

@@ -747,13 +747,16 @@ a.readMore {
     padding-left: 0;
 }
 .left-Wrapper .leftSideBlog{
-    background-color: gray;
     border-radius: 20px;
     overflow: hidden;
+    height: 400px;
 }
 .left-Wrapper .leftSideBlog img{
-        height: 400px;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+    line-height: 0;
 }
 .m-50{
     margin: 50px 0;
@@ -784,4 +787,10 @@ border-right: 1px solid;
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
+}
+.pinkFont{
+    color: #EC008C;
+}
+.Font16{
+    font-size: 16px;
 }
