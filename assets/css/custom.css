@@ -705,3 +705,83 @@ a.readMore {
     top: 0%;
     right: 0%;
 }
+.bg-white{
+    background-color: #fff;
+}
+.right-wrapper .searh-field{
+    position: relative;
+    margin-bottom: 25px;
+}
+.right-wrapper .searh-field i.fas.fa-search{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #EC008C;
+}
+.categoryFont h2{
+    color: #06377B;
+    font-family: "Heebo", Sans-serif;
+    font-size:22px;
+    font-weight: 700;
+}
+.categoryFont{
+    margin-bottom: 25px;
+}
+.ListPage ul{
+    list-style: none;
+    padding: 0;
+}
+.ListPage ul li.listItem a{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+    color: #486683;
+    font-size: 16px;
+    font-weight: 600 !important;
+    border-top: 1px solid #DFEDEE;
+    border-bottom: 1px solid #DFEDEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+.left-Wrapper .leftSideBlog{
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.left-Wrapper .leftSideBlog img{
+        height: 400px;
+    max-width: 100%;
+}
+.m-50{
+    margin: 50px 0;
+}
+.blogBottom{
+    margin-bottom: 15px;
+}
+.blogBottom .blogElemnt{
+    display: flex;
+    gap: 5px;
+}
+
+    .blogBottom .blogElemnt .footerList > div{
+border-right: 1px solid;
+    padding-right: 10px;
+}
+.footerList{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footerList i{
+    color: #EC008C;
+    font-size: 14px;
+}
+.blogFooterConent .contentWrapper p{
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+}
