@@ -508,7 +508,7 @@ footer a:hover {
     opacity: 0.9;
 }
 .wrapperDetails .drTitle{
-    color: #FFFFFF;
+    color: #06377B;
     font-family: "Nunito Sans", Sans-serif;
     font-size: 38px;
     font-weight: 500;
@@ -516,6 +516,9 @@ footer a:hover {
 }
 .wrapperDetails .drTitle span{
     color: #00ffff;
+}
+.fontWhite{
+    color: #fff !important;
 }
 .btn-primary.btnGray{
     background: transparent;
@@ -793,4 +796,7 @@ border-right: 1px solid;
 }
 .Font16{
     font-size: 16px;
+}
+.listing-top{
+    border-radius: 15px;
 }

@@ -18,16 +18,97 @@
         padding-top: 25px;
      }
      .cardSection{
-        padding: 15px 0;
+        padding: 0;
      }
-     .cardSection p {
+    section.rainbowPartner.cardSection.cardSection p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.rainbowPartner{
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+.outersection{
+    padding-top: 15px;
+}
+.customCard .card-body .card-text{
+    font-size: 16px !important;
+}
+.blueFont {
+    font-size: 22px;
+    line-height: 1.4;
+}
+.bottom-text {
+    font-size: 20px;
+    line-height: 1.4;
+}
+ .customCard h2{
+    font-size: 20px;
+ }
+.wrapperDetails .drTitle {
+    font-size: 22px;
+    line-height: 1.4;
+}
+.AppointmentBtn {
+    padding: 15px;
+}
+.AppointmentBtn .btnGray {
+    margin-left: 0 !important;
+    margin-bottom: 15px;
+}
+.AppointmentBtn .ml-10 {
+    margin-left: 0 !important;
+}
+.aboutbg{
+    height: 100%;
+    min-height: 100%;
+}
+.aboutSection .aboutWrapper .blueFont{
+    font-size: 22px;
+}
+.card.blogCard {
+    margin-bottom: 15px;
+}
+footer{
+    padding: 15px 0 0;
+}
+.footerLinks p{
+    margin-top: 0;
+}
+.blogDetailsWrapper{
+    padding: 15px;
+}
+.blogDetailsWrapper .blogDetailMeta{
     font-size: 22px;
     line-height: 1.5;
 }
-.rainbowPartner.cardSectiona.btn.btn-primary.btnPink{
-    margin-bottom: 15px;
+.listing-top{
+    margin: 15px 0;
+    padding: 15px 0;
 }
+.footerList{
+    flex-wrap: wrap;
+}
+.blogBottom .blogElemnt .footerList > div{
+    width: 100%;
+    border: 0;
+}
+.carousel-item img{
+    height: auto;
+}
+.carousel-control-prev, .carousel-control-next{
+    height: 30px;
+    width: 30px;
+}
+.custom-prev-icon, .custom-next-icon
+ {
+    height: 14px;
+    width: 14px;
  }
+.top-section{
+    display: none;
+}
+}
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {}
