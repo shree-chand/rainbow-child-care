@@ -800,3 +800,6 @@ border-right: 1px solid;
 .listing-top{
     border-radius: 15px;
 }
+.whiteFont{
+    color: #FFF !important;
+}
